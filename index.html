@@ -1,176 +1,395 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dementia Café — a proposed welcoming, accessible and non-clinical Trinity community café pilot for people living with dementia, families and carers.">
-  <title>Alongside | a place to be together</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<a class="skip-link" href="#main">Skip to main content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dementia Café — a proposed welcoming, accessible and non-clinical Trinity community café pilot for people living with dementia, families and carers."
+    />
+    <title>Alongside | a place to be together</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-<div class="accessibility-bar" aria-label="Display options">
-  <div class="container">
-    <span class="accessibility-label">Display:</span>
-    <button type="button" class="accessibility-control" id="textIncrease" aria-pressed="false">A+ larger text</button>
-    <button type="button" class="accessibility-control" id="dyslexicFont" aria-pressed="false">Dyslexia-friendly font</button>
-    <button type="button" class="accessibility-control" id="highContrast" aria-pressed="false">High contrast</button>
-    <button type="button" class="accessibility-control" id="resetDisplay">Reset</button>
-  </div>
-</div>
-
-<header class="site-header">
-  <nav class="navbar navbar-expand-md" aria-label="Main navigation">
-    <div class="container">
-      <a class="navbar-brand logo-brand" href="#home" aria-label="Alongside home">
-        <img src="alongside_logo.png" class="site-logo" alt="Alongside — Dementia Support Café">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
-        aria-label="Open navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#what">What happens?</a></li>
-          <li class="nav-item"><a class="nav-link" href="#for">Who is it for?</a></li>
-          <li class="nav-item"><a class="nav-link" href="#visiting">Visiting</a></li>
-          <li class="nav-item"><a class="nav-link" href="#idea">The idea</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+    <div class="accessibility-bar" aria-label="Display options">
+      <div class="container">
+        <span class="accessibility-label">Display:</span>
+        <button
+          type="button"
+          class="accessibility-control"
+          id="textIncrease"
+          aria-pressed="false"
+        >
+          A+ larger text
+        </button>
+        <button
+          type="button"
+          class="accessibility-control"
+          id="dyslexicFont"
+          aria-pressed="false"
+        >
+          Dyslexia-friendly font
+        </button>
+        <button
+          type="button"
+          class="accessibility-control"
+          id="highContrast"
+          aria-pressed="false"
+        >
+          High contrast
+        </button>
+        <button type="button" class="accessibility-control" id="resetDisplay">
+          Reset
+        </button>
       </div>
     </div>
-  </nav>
-</header>
 
-<main id="main">
-<section id="home" class="welcome" aria-labelledby="welcome-title">
-  <div class="container narrow">
-    <p class="eyebrow">A proposed dementia-inclusive café and Trinity community pilot</p>
-    <h1 id="welcome-title">Alongside</h1><p class="hero-tagline">a place to be together</p><p class="invitation">Come in. Sit down. Stay awhile.</p>
-    <p class="welcome-lead">A welcoming, non-clinical place for people living with dementia, families and carers.</p>
-    <p class="welcome-copy">Tea. Conversation. Company. And the freedom to simply be there.</p>
-    <div class="actions">
-      <a class="btn btn-primary btn-lg" href="#what">What happens?</a>
-      <a class="btn btn-outline-dark btn-lg" href="#visiting">Visiting the café</a>
-    </div>
-  </div>
-</section>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md" aria-label="Main navigation">
+        <div class="container">
+          <a
+            class="navbar-brand logo-brand"
+            href="#home"
+            aria-label="Alongside home"
+          >
+            <img
+              src="alongside_logo.png"
+              class="site-logo"
+              alt="Alongside — Dementia Support Café"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Open navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#what">What happens?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#for">Who is it for?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#visiting">Visiting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#idea">The idea</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<section id="what" class="section soft" aria-labelledby="what-title">
-  <div class="container narrow">
-    <p class="num" aria-hidden="true">01</p>
-    <h2 id="what-title">What happens at the café?</h2>
-    <p class="intro">The idea is deliberately simple: a relaxed drop-in session in a calm, friendly place.</p>
+    <main id="main">
+      <section id="home" class="welcome" aria-labelledby="welcome-title">
+        <div class="container narrow">
+          <p class="eyebrow">
+            A proposed dementia-inclusive café and Trinity community pilot
+          </p>
+          <h1 id="welcome-title">Alongside</h1>
+          <p class="hero-tagline">a place to be together</p>
+          <p class="invitation">Come in. Sit down. Stay awhile.</p>
+          <p class="welcome-lead">
+            A welcoming, non-clinical place for people living with dementia,
+            families and carers.
+          </p>
+          <p class="welcome-copy">
+            Tea. Conversation. Company. And the freedom to simply be there.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary btn-lg" href="#what">What happens?</a>
+            <a class="btn btn-outline-dark btn-lg" href="#visiting"
+              >Visiting the café</a
+            >
+          </div>
+        </div>
+      </section>
 
-    <div class="step"><h3>Have a cup of tea or coffee.</h3><p>Sit somewhere comfortable and take your time.</p></div>
-    <div class="step"><h3>Meet and talk.</h3><p>Spend time with other people living with dementia, families and carers.</p></div>
-    <div class="step"><h3>Do something — if you want to.</h3><p>Gentle activities could include music, reminiscence materials or creative activities.</p></div>
-    <div class="step"><h3>Or simply be there.</h3><p>There would be no requirement to join an activity or take part in a group conversation.</p></div>
-  </div>
-</section>
+      <section id="what" class="section soft" aria-labelledby="what-title">
+        <div class="container narrow">
+          <p class="num" aria-hidden="true">01</p>
+          <h2 id="what-title">What happens at the café?</h2>
+          <p class="intro">
+            The idea is deliberately simple: a relaxed drop-in session in a
+            calm, friendly place.
+          </p>
 
-<section class="statement" aria-label="A simple message">
-  <div class="container narrow">
-    <p>Sometimes the most important thing is simply having <strong>somewhere to go where you feel welcome.</strong></p>
-  </div>
-</section>
+          <div class="step">
+            <h3>Have a cup of tea or coffee.</h3>
+            <p>Sit somewhere comfortable and take your time.</p>
+          </div>
+          <div class="step">
+            <h3>Meet and talk.</h3>
+            <p>
+              Spend time with other people living with dementia, families and
+              carers.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Do something — if you want to.</h3>
+            <p>
+              Gentle activities could include music, reminiscence materials or
+              creative activities.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Or simply be there.</h3>
+            <p>
+              There would be no requirement to join an activity or take part in
+              a group conversation.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Occasional conversations with experts.</h3>
+            <p>
+              Alongside could also host relaxed, practical conversations with
+              invited professionals on topics that matter in everyday life —
+              such as nutrition and eating well, hydration, mobility,
+              communication and supporting someone with dementia. These would
+              complement the café's social purpose rather than turn it into a
+              clinical service.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<section id="for" class="section" aria-labelledby="for-title">
-  <div class="container narrow">
-    <p class="num" aria-hidden="true">02</p>
-    <h2 id="for-title">Who is it for?</h2>
-    <p class="intro">The café would bring people together around dementia, ageing, friendship and lived experience.</p>
-    <ul class="people-list">
-      <li>People living with dementia</li>
-      <li>Family members and informal carers</li>
-      <li>Older adults in the local community</li>
-      <li>Trinity researchers, students and staff interested in ageing and dementia</li>
-      <li>Health and social care professionals taking part informally</li>
-    </ul>
-  </div>
-</section>
+      <section class="statement" aria-label="A simple message">
+        <div class="container narrow">
+          <p>
+            Sometimes the most important thing is simply having
+            <strong>somewhere to go where you feel welcome.</strong>
+          </p>
+        </div>
+      </section>
 
-<section class="section boundaries" aria-labelledby="is-title">
-  <div class="container narrow">
-    <p class="num light" aria-hidden="true">03</p>
-    <h2 id="is-title">A social place, not a clinical one.</h2>
-    <div class="boundary-row">
-      <p><strong>This is a place for company.</strong><span>Tea, conversation, connection and optional activities.</span></p>
-      <p><strong>This isn't a clinic.</strong><span>The café would offer social support, not diagnosis, treatment or clinical care.</span></p>
-      <p><strong>You don't have to explain.</strong><span>There would be no requirement to disclose a diagnosis.</span></p>
-      <p><strong>You don't have to join in.</strong><span>Taking part in activities would always be a choice.</span></p>
-    </div>
-  </div>
-</section>
+      <section id="for" class="section" aria-labelledby="for-title">
+        <div class="container narrow">
+          <p class="num" aria-hidden="true">02</p>
+          <h2 id="for-title">Who is it for?</h2>
+          <p class="intro">
+            The café would bring people together around dementia, ageing,
+            friendship and lived experience.
+          </p>
+          <ul class="people-list">
+            <li>People living with dementia</li>
+            <li>Family members and informal carers</li>
+            <li>Older adults in the local community</li>
+            <li>
+              Trinity researchers, students and staff interested in ageing and
+              dementia
+            </li>
+            <li>Health and social care professionals taking part informally</li>
+          </ul>
+        </div>
+      </section>
 
-<section id="visiting" class="section" aria-labelledby="visiting-title">
-  <div class="container narrow">
-    <p class="num" aria-hidden="true">04</p>
-    <h2 id="visiting-title">Visiting the café</h2>
-    <p class="intro">The pilot is still being explored. These details will be updated as plans develop.</p>
+      <section class="section boundaries" aria-labelledby="is-title">
+        <div class="container narrow">
+          <p class="num light" aria-hidden="true">03</p>
+          <h2 id="is-title">A social place, not a clinical one.</h2>
+          <div class="boundary-row">
+            <p>
+              <strong>This is a place for company.</strong
+              ><span
+                >Tea, conversation, connection and optional activities.</span
+              >
+            </p>
+            <p>
+              <strong>This isn't a clinic.</strong
+              ><span
+                >The café would offer social support, not diagnosis, treatment
+                or clinical care.</span
+              >
+            </p>
+            <p>
+              <strong>You don't have to explain.</strong
+              ><span
+                >There would be no requirement to disclose a diagnosis.</span
+              >
+            </p>
+            <p>
+              <strong>You don't have to join in.</strong
+              ><span>Taking part in activities would always be a choice.</span>
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <dl class="facts">
-      <div><dt>Where?</dt><dd>A suitable location is being explored.</dd></div>
-      <div><dt>When?</dt><dd>Dates and times are to be confirmed.</dd></div>
-      <div><dt>How long?</dt><dd>The initial concept suggests sessions of around 1.5–2 hours.</dd></div>
-      <div><dt>What kind of space?</dt><dd>A calm, accessible and familiar environment, ideally with step-free access, clear signage and accessible toilets nearby.</dd></div>
-      <div><dt>How big?</dt><dd>The concept is for a small group so the atmosphere can remain calm and welcoming.</dd></div>
-      <div><dt>Cost?</dt><dd>To be confirmed as the pilot develops.</dd></div>
-    </dl>
+      <section id="visiting" class="section" aria-labelledby="visiting-title">
+        <div class="container narrow">
+          <p class="num" aria-hidden="true">04</p>
+          <h2 id="visiting-title">Visiting the café</h2>
+          <p class="intro">
+            The pilot is still being explored. These details will be updated as
+            plans develop.
+          </p>
 
-    <aside class="visit-note" aria-labelledby="before-title">
-      <h3 id="before-title">Know what to expect before you arrive.</h3>
-      <p>Once a location is chosen, we hope to show photographs of the entrance, step-free route, café room and nearby accessible toilet, together with clear travel information.</p>
-    </aside>
-  </div>
-</section>
+          <dl class="facts">
+            <div>
+              <dt>Where?</dt>
+              <dd>A suitable location is being explored.</dd>
+            </div>
+            <div>
+              <dt>When?</dt>
+              <dd>Dates and times are to be confirmed.</dd>
+            </div>
+            <div>
+              <dt>How long?</dt>
+              <dd>
+                The initial concept suggests sessions of around 1.5–2 hours.
+              </dd>
+            </div>
+            <div>
+              <dt>What kind of space?</dt>
+              <dd>
+                A calm, accessible and familiar environment, ideally with
+                step-free access, clear signage and accessible toilets nearby.
+              </dd>
+            </div>
+            <div>
+              <dt>How big?</dt>
+              <dd>
+                The concept is for a small group so the atmosphere can remain
+                calm and welcoming.
+              </dd>
+            </div>
+            <div>
+              <dt>Cost?</dt>
+              <dd>To be confirmed as the pilot develops.</dd>
+            </div>
+          </dl>
 
-<section id="idea" class="section dark" aria-labelledby="idea-title">
-  <div class="container narrow">
-    <p class="num light" aria-hidden="true">05</p>
-    <h2 id="idea-title">We're exploring a simple idea.</h2>
-    <p class="big-question">Could Trinity provide a welcoming place where people living with dementia, families and carers can come together?</p>
-    <p>Alongside could help reduce social isolation, foster connection and create a supportive environment where people feel understood and welcome.</p>
-    <p>It could also provide a human-centred bridge between lived experience, education and research into dementia and ageing.</p>
-    <p class="emphasis">The project should develop by listening to people living with dementia and carers — not by deciding in advance what people need.</p>
-  </div>
-</section>
+          <aside class="visit-note" aria-labelledby="before-title">
+            <h3 id="before-title">Know what to expect before you arrive.</h3>
+            <p>
+              Once a location is chosen, we hope to show photographs of the
+              entrance, step-free route, café room and nearby accessible toilet,
+              together with clear travel information.
+            </p>
+          </aside>
+        </div>
+      </section>
 
-<section class="section" aria-labelledby="values-title">
-  <div class="container narrow">
-    <p class="num" aria-hidden="true">06</p>
-    <h2 id="values-title">What matters</h2>
-    <div class="values">
-      <p><strong>Welcome</strong><span>A warm, ordinary place rather than a clinical setting.</span></p>
-      <p><strong>Connection</strong><span>Reducing isolation by creating opportunities to spend time with other people.</span></p>
-      <p><strong>Choice</strong><span>Talk, join an activity, listen, or simply enjoy being there.</span></p>
-      <p><strong>Dignity</strong><span>People and lived experience come before labels.</span></p>
-      <p><strong>Accessibility</strong><span>Physical, sensory and communication needs considered from the beginning.</span></p>
-    </div>
-  </div>
-</section>
+      <section id="idea" class="section dark" aria-labelledby="idea-title">
+        <div class="container narrow">
+          <p class="num light" aria-hidden="true">05</p>
+          <h2 id="idea-title">We're exploring a simple idea.</h2>
+          <p class="big-question">
+            Could Trinity provide a welcoming place where people living with
+            dementia, families and carers can come together?
+          </p>
+          <p>
+            Alongside could help reduce social isolation, foster connection and
+            create a supportive environment where people feel understood and
+            welcome.
+          </p>
+          <p>
+            It could also provide a human-centred bridge between lived
+            experience, education and research into dementia and ageing.
+          </p>
+          <p class="emphasis">
+            The project should develop by listening to people living with
+            dementia and carers — not by deciding in advance what people need.
+          </p>
+        </div>
+      </section>
 
-<section id="contact" class="section soft" aria-labelledby="contact-title">
-  <div class="container narrow">
-    <p class="num" aria-hidden="true">07</p>
-    <h2 id="contact-title">Help shape the idea.</h2>
-    <p class="intro">This is an early concept. We welcome lived experience, ideas, possible partnerships and suggestions for suitable spaces.</p>
-    <a class="btn btn-primary btn-lg" href="mailto:likemanm@tcd.ie?subject=Alongside%20dementia-inclusive%20caf%C3%A9">Email likemanm@tcd.ie</a>
-  </div>
-</section>
-</main>
+      <section class="section" aria-labelledby="values-title">
+        <div class="container narrow">
+          <p class="num" aria-hidden="true">06</p>
+          <h2 id="values-title">What matters</h2>
+          <div class="values">
+            <p>
+              <strong>Welcome</strong
+              ><span
+                >A warm, ordinary place rather than a clinical setting.</span
+              >
+            </p>
+            <p>
+              <strong>Connection</strong
+              ><span
+                >Reducing isolation by creating opportunities to spend time with
+                other people.</span
+              >
+            </p>
+            <p>
+              <strong>Choice</strong
+              ><span
+                >Talk, join an activity, listen, or simply enjoy being
+                there.</span
+              >
+            </p>
+            <p>
+              <strong>Dignity</strong
+              ><span>People and lived experience come before labels.</span>
+            </p>
+            <p>
+              <strong>Accessibility</strong
+              ><span
+                >Physical, sensory and communication needs considered from the
+                beginning.</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
 
-<footer class="site-footer">
-  <div class="container narrow">
-    <p><strong>Alongside</strong> <span aria-hidden="true">·</span> a place to be together</p>
-    <p class="small">Proposed pilot concept. Details may change as the project develops through lived-experience and professional input.</p>
-    <p class="small"><a href="accessibility.html">Accessibility statement</a></p>
-  </div>
-</footer>
+      <section
+        id="contact"
+        class="section soft"
+        aria-labelledby="contact-title"
+      >
+        <div class="container narrow">
+          <p class="num" aria-hidden="true">07</p>
+          <h2 id="contact-title">Help shape the idea.</h2>
+          <p class="intro">
+            This is an early concept. We welcome lived experience, ideas,
+            possible partnerships and suggestions for suitable spaces.
+          </p>
+          <a
+            class="btn btn-primary btn-lg"
+            href="mailto:likemanm@tcd.ie?subject=Alongside%20dementia-inclusive%20caf%C3%A9"
+            >Email likemanm@tcd.ie</a
+          >
+        </div>
+      </section>
+    </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/accessibility.js"></script>
-</body></html>
+    <footer class="site-footer">
+      <div class="container narrow">
+        <p>
+          <strong>Alongside</strong> <span aria-hidden="true">·</span> a place
+          to be together
+        </p>
+        <p class="small">
+          Proposed pilot concept. Details may change as the project develops
+          through lived-experience and professional input.
+        </p>
+        <p class="small">
+          <a href="accessibility.html">Accessibility statement</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/accessibility.js"></script>
+  </body>
+</html>
